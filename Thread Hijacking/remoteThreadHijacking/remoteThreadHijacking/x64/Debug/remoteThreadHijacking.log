@@ -1,0 +1,10 @@
+﻿  main.c
+C:\Users\MalDevUser\Desktop\remoteThreadHijacking\remoteThreadHijacking\main.c(64,3): warning C4133: 'function': incompatible types - from 'STARTUPINFO *' to 'LPSTARTUPINFOA'
+C:\Users\MalDevUser\Desktop\remoteThreadHijacking\remoteThreadHijacking\main.c(75,19): warning C4047: '==': 'DWORD' differs in levels of indirection from 'void *'
+C:\Users\MalDevUser\Desktop\remoteThreadHijacking\remoteThreadHijacking\main.c(75,27): warning C4554: '|': check operator precedence for possible error; use parentheses to clarify precedence
+C:\Users\MalDevUser\Desktop\remoteThreadHijacking\remoteThreadHijacking\main.c(75,47): warning C4554: '|': check operator precedence for possible error; use parentheses to clarify precedence
+C:\Users\MalDevUser\Desktop\remoteThreadHijacking\remoteThreadHijacking\main.c(84,9): warning C4047: 'initializing': 'SIZE_T' differs in levels of indirection from 'void *'
+C:\Users\MalDevUser\Desktop\remoteThreadHijacking\remoteThreadHijacking\main.c(85,8): warning C4047: 'initializing': 'DWORD' differs in levels of indirection from 'void *'
+C:\Users\MalDevUser\Desktop\remoteThreadHijacking\remoteThreadHijacking\main.c(116,16): warning C4047: '=': 'DWORD64' differs in levels of indirection from 'PVOID'
+C:\Users\MalDevUser\Desktop\remoteThreadHijacking\remoteThreadHijacking\main.c(133,8): warning C4047: 'initializing': 'DWORD' differs in levels of indirection from 'void *'
+  remoteThreadHijacking.vcxproj -> C:\Users\MalDevUser\Desktop\remoteThreadHijacking\x64\Debug\remoteThreadHijacking.exe
