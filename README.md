@@ -2,9 +2,9 @@
 
 This repo showcases how to hijack threads in both local and remote processes to execute arbitrary code (like shellcode) without creating new threads. These techniques are useful in malware, red teaming, and EDR bypass scenarios when you want stealthier execution.
 
-> 🔬 For research and educational use only. Don't be dumb with this.
+> For research and educational use only. Don't be dumb with this.
 
-## 📖 What’s Inside?
+## What’s Inside?
 
 This repo includes working implementations of two thread hijacking techniques:
 
@@ -22,9 +22,9 @@ No `CreateRemoteThread`. No `NtCreateThreadEx`. Just good old thread manipulatio
 
 ---
 
-## 🧰 Techniques
+## Techniques
 
-### 🔧 Local Thread Hijacking
+###  Local Thread Hijacking
 
 Basic idea:
 1. Get a handle to your own thread.
@@ -33,7 +33,7 @@ Basic idea:
 4. Resume and execute.
 
 
-### 🌐 Remote Thread Hijacking
+###  Remote Thread Hijacking
 
 Basic idea:
 1. Open the remote process after creating it in suspend state.
@@ -47,14 +47,11 @@ Basic idea:
 ```bash
     git clone https://github.com/Zanebilal/Thread-Hijacking
 ```
-2.  Navigate to the desired technique folder and compile: 
+2.open one of the file.c in microsoft visual studio
+3.run the code
 
-```bash
-    cd Thread Hijacking/localThreadHijacking/localThreadHijacking
-    gcc main.c -o main
- ```
 
-## 📚 Further Reading
+## Further Reading
 
 Want to dive deeper? Here are some great resources:
 
